@@ -12,3 +12,6 @@ wheels/
 # files that can be regenrated
 tictactoe_data.csv
 tictactoe_model.pt
+
+# build executables
+*.exe
