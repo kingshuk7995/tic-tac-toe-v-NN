@@ -13,7 +13,7 @@ class TicTacToeNN(nn.Module):
             nn.ReLU(),
             nn.Linear(128, 64),
             nn.ReLU(),
-            nn.Linear(64, 9)  # 9 output logits (position index 0–8)
+            nn.Linear(64, 9)
         )
 
     def forward(self, x: Tensor) -> Tensor:

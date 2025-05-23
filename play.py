@@ -85,7 +85,6 @@ def main() -> None:
     game.display()
 
     while True:
-        # User move
         while True:
             try:
                 r, c = map(int, input("Your move (row col): ").split())
@@ -106,7 +105,6 @@ def main() -> None:
             print("It's a draw!")
             break
 
-        # AI move
         game.ai_move()
         game.display()
 

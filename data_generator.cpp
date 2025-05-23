@@ -128,7 +128,6 @@ void generate_games(int games, int thread_id, ofstream &out) {
         }
     }
 
-    // Write buffered result to shared file
     lock_guard<mutex> lock(mtx);
     out << buffer.str();
 }
