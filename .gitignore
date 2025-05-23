@@ -15,3 +15,6 @@ tictactoe_model.pt
 
 # build executables
 *.exe
+
+# vscode configurations
+.vscode
